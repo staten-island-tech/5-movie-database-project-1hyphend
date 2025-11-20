@@ -1,13 +1,13 @@
-# import json
-# ## Open the JSON file of movie data
-# movies = open("./movies.json", encoding="utf8")
-# ## create variable "data" that represents the enitre movie list
-# data = json.load(movies)
+import json
+## Open the JSON file of movie data
+movies = open("./movies.json", encoding="utf8")
+## create variable "data" that represents the enitre movie list
+data = json.load(movies)
 
 # number file VI
-# for i in movies:
-#     print("WHAT ARE YOU LOOKING FOR BRO ")
-#     search = genres (input)
+for i in movies:
+    print("WHAT ARE YOU LOOKING FOR BRO ")
+    search = "genres" (input)
 
 
 
@@ -37,20 +37,20 @@
 # If ANY of these rules are broken, the function should return an error message explaining what went wrong.
 # If EVERYTHING is good, the function should return a dictionary that represents the newly created user.
 
-def isValid(email, password):
-    if "@" not in email:
-        return "Your email needs an @ symbol man"
-    if not isinstance(email, str) or not isinstance(password, str):
-        return "YOUR EMAIL and PASSWORD must be a STRING."
-    if len(password) < 8:
-        return "Your password has to be at MORE THAN 6-7 characters long." 
-    for char in password:
-        if char.upper:
-            password = True
-    for char in password:
-        if char > 0:
-            password = True
-    if password.upper() not in password:  
-        return "You need atleast 1 uppercase brah"
-print (isValid("gmail2@gmail.com", "SCUBADUPADIV22ER"))
-print("GOOD JOB U MADE A PASSWORD")
+# def isValid(email, password):
+#     if "@" not in email:
+#         return "Your email needs an @ symbol man"
+#     if not isinstance(email, str) or not isinstance(password, str):
+#         return "YOUR EMAIL and PASSWORD must be a STRING."
+#     if len(password) < 8:
+#         return "Your password has to be at MORE THAN 6-7 characters long." 
+#     for char in password:
+#         if char.upper:
+#             password = True
+#     for char in password:
+#         if char > 0:
+#             password = True
+#     if password.upper() not in password:  
+#         return "You need atleast 1 uppercase brah"
+# print (isValid("gmail2@gmail.com", "SCUBADUPADIV22ER"))
+# print("GOOD JOB U MADE A PASSWORD")
