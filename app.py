@@ -5,10 +5,10 @@ movies = open("./movies.json", encoding="utf8")
 data = json.load(movies)
 
 # number file VI
-for i in movies:
-    print("WHAT ARE YOU LOOKING FOR BRO ")
-    search = "genres" (input)
+for movie in movies:
 
+    search = "genres" 
+    print("WHAT GENRE ARE YOU LOOKING FOR BRO ")
 
 
 
