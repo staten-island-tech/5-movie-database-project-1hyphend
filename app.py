@@ -45,16 +45,12 @@ def isValid(email, password):
     if len(password) < 8:
         return "Your password has to be at MORE THAN 6-7 characters long." 
     for char in password:
-        if char():
+        if char.upper:
             password = True
-            print("GOOD JOB U MADE A PASSWORD")
-    if 2 not in password:
-        return "YOUR Password MUST contain at least ONE number."
-
     for char in password:
         if char > 0:
             password = True
     if password.upper() not in password:  
         return "You need atleast 1 uppercase brah"
-print(isValid("gmail2@gmail.com, SCUBADUPADIV2ER"))
-
+print (isValid("gmail2@gmail.com", "SCUBADUPADIV22ER"))
+print("GOOD JOB U MADE A PASSWORD")
