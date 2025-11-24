@@ -4,11 +4,41 @@ movies = open("./movies.json", encoding="utf8")
 ## create variable "data" that represents the enitre movie list
 data = json.load(movies)
 
+# numero duo 
+# year = int(input("Enter a year: "))
+# print(f"Movies released after {year}:")
+# for movie in movies:
+#     if movie["year"] > year:
+#         print(f"{movie['title']} ({movie['year']})")
+
+
+# numero thres 
+# start_year = int(input("Enter start year: "))
+# end_year = int(input("Enter end year: "))
+
+# print(f"Movies released between {start_year} and {end_year}:")
+# for movie in movies:
+#     if start_year < movie["year"] < end_year:
+#         print(f"{movie['title']} ({movie['year']})")
+
+
+# numero quarter 
+# year = int(input("Enter a year: "))
+
+# print(f"(Movies released in {year}):")
+# for movie in movies:
+#     if movie["year"] == year:
+#         print(f"{movie['title']} ({movie['genre']})")
+
+# numebr feive 
+# search = input()
+# def search_movie(title):
+#     search = movies
+#     return search
 # number file VI
+input("genre")
 for movie in movies:
-
-    search = "genres" 
-    print("WHAT GENRE ARE YOU LOOKING FOR BRO ")
+    search = 
 
 
 
@@ -23,7 +53,8 @@ for movie in movies:
 
 
 
-# IMA PLACE THIS HERE CUZ IM SMARTY 
+
+# IMA PLACE THIS HERE CUZ IM SMART
 # Word Problem: The School Portal Login System
 # Your school is creating a new online portal for students to sign up for accounts. The login system needs a function that accepts two pieces of information from the user:
 # Their email address
