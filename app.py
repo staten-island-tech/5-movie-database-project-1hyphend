@@ -3,14 +3,14 @@ import json
 movies = open("./movies.json", encoding="utf8")
 ## create variable "data" that represents the enitre movie list
 data = json.load(movies)
-
+# number 1
+# print(f"Titles")
 # numero duo 
 # year = int(input("Enter a year: "))
 # print(f"Movies released after {year}:")
 # for movie in movies:
 #     if movie["year"] > year:
 #         print(f"{movie['title']} ({movie['year']})")
-
 
 # numero thres 
 # start_year = int(input("Enter start year: "))
@@ -20,7 +20,6 @@ data = json.load(movies)
 # for movie in movies:
 #     if start_year < movie["year"] < end_year:
 #         print(f"{movie['title']} ({movie['year']})")
-
 
 # numero quarter 
 # year = int(input("Enter a year: "))
@@ -32,13 +31,19 @@ data = json.load(movies)
 
 # numebr feive 
 # search = input()
-# def search_movie(title):
+# def search_movies(title):
 #     search = movies
 #     return search
+
 # number file VI
-input("genre")
-for movie in movies:
-    search = 
+search = input().capitalize
+def search_movies(genres):
+    search = "genres" 
+    return search
+print("These are all the books that follow your requested genre:")
+# 
+
+
 
 
 
