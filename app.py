@@ -36,12 +36,13 @@ data = json.load(movies)
 #     return search
 
 # number file VI
-search = input().capitalize
-def search_movies(genres):
-    search = "genres" 
-    return search
+search = input()
+for movie in movies:
+    search.capitalize = "genres" 
+def search_movies(genre):
+    return search("genre")
 print("These are all the books that follow your requested genre:")
-# 
+
 
 
 
