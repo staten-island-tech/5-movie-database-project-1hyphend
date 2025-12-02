@@ -30,17 +30,20 @@ data = json.load(movies)
 #         print(f"{movie['title']} ({movie['genre']})")
 
 # numebr feive 
+# print("what movie are you looking for")
 # search = input()
 # def search_movies(title):
 #     search = movies
 #     return search
 
+
 # number file VI
-search = input()
-for movie in movies:
-    search.capitalize = "genres" 
-def search_movies(genre):
-    return search("genre")
+
+def search_movies(genres):
+    search=input()
+    results = [m["title"] for m in movies if m["genre"]() == genres]
+    search= movies
+    return search
 print("These are all the books that follow your requested genre:")
 
 
